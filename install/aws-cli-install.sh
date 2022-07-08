@@ -3,22 +3,22 @@
 #
 On your other Linux system install aws cli
 
-# mkdir aws-install
+mkdir aws-install
 
-# cd aws-install
+cd aws-install
 
-# curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 
-# unzip awscliv2.zip
+unzip awscliv2.zip
 
-# sudo ./aws/install
+sudo ./aws/install
 
-# ./aws/install -i /usr/local/aws-cli -b /usr/local/bin
+./aws/install -i /usr/local/aws-cli -b /usr/local/bin
 
-# which aws
+which aws
 
-# aws --version
+aws --version
 
-Configure AWS and provide access key and secret key when prompted -
+# Configure AWS and provide access key and secret key when prompted -
 
-# aws configure
+aws configure
