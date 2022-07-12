@@ -14,3 +14,5 @@ aws s3 ls s3://images-19159/VM-Import/
 aws s3 cp sample-file.txt s3://images-19159/VM-Import/
 
 aws s3 rb s3://images-19159
+
+aws s3 rb --force s3://tf-ts-s3-19159
