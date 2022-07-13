@@ -5,6 +5,8 @@ aws s3 ls
 
 aws s3api create-bucket --bucket images-19159 --region us-east-1
 
+aws s3api put-bucket-versioning --bucket images-19159 --versioning-configuration Status=Enabled
+
 aws s3 ls
 
 aws s3api put-object --bucket images-19159 --key VM-Import/
